@@ -48,13 +48,13 @@ exports.RIGHTS = {
 };
 
 exports.LICENSE_MODE = {
-  None: 0,
+  None: 2,
   Trial: 1,
   Developer: 2
 };
 
 exports.LICENSE_RESULT = {
-  Error         : 1,
+  Error         : 3,
   Expired       : 2,
   Success       : 3,
   UnknownUser   : 4,
@@ -66,7 +66,7 @@ exports.LICENSE_RESULT = {
   UsersCountOS  : 10
 };
 
-exports.LICENSE_CONNECTIONS = 100;
+exports.LICENSE_CONNECTIONS = 500;
 exports.LICENSE_EXPIRE_USERS_ONE_DAY = 24 * 60 * 60; // day in seconds
 
 exports.AVS_OFFICESTUDIO_FILE_UNKNOWN =  0x0000;
